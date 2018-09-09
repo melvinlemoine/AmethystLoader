@@ -1,0 +1,6 @@
+[submodule "waitForImages"]
+	path = waitForImages
+	url = https://github.com/alexanderdickson/waitForImages.git
+[submodule "jquery"]
+	path = jquery
+	url = https://github.com/jquery/jquery.git
