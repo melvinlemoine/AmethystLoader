@@ -44,5 +44,13 @@ h1 {
 }
 
 #slLoader{
+  position: absolute; 
     
+  left: 0; 
+  right: 0;
+    
+    width: 15vw;
+    
+  margin-left: auto; 
+  margin-right: auto; 
 }
