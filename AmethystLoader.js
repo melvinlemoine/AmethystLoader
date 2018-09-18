@@ -40,6 +40,6 @@ $('*').waitForImages().done(function () {
         setTimeout(function () {
             overlay.style.display = "none";
             loader.style.display = "none";
-        }, loader_duration * 2000);
+        }, loader_duration * 200000);
 
 });
