@@ -47,5 +47,5 @@ $('*').waitForImages().done(function () {
             loader.style.display = "none";
         }, 2000)
 
-    }, 500);
+    }, 2000);
 });
