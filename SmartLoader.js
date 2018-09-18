@@ -4,8 +4,15 @@
 ##################################################
 */
 
+// Loader path
 var loader_image_path = "";
-var loader_text = "";
+
+// Message to display after the content loader
+var loader_text = false;
+var loader_text_content = "";
+
+// Loader hide animation duration after all content loaded (default 2s)
+var loader_duration = 2;
 
 /*
 ##################################################
@@ -31,8 +38,8 @@ overlay.style.justifyContent = "center";
 overlay.style.alignItems = "center";
 
 overlay.style.backgroundColor = "white";
-overlay.style.transition = "opacity 2s ease-in-out 0s";
-loader.style.transition = "opacity 1s ease-in-out 0s";
+overlay.style.transition = "opacity " + loader_duration + "s" + " ease-in-out 0s";
+loader.style.transition = "opacity " + loader_duration / 2 + "s" + " ease-in-out 0s";
 
 
 
@@ -45,7 +52,7 @@ $('*').waitForImages().done(function () {
         setTimeout(function () {
             overlay.style.display = "none";
             loader.style.display = "none";
-        }, 2000)
+        }, loader_duration);
 
     }, 2000);
 });
