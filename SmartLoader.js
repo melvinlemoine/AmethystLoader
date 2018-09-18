@@ -27,6 +27,7 @@ $("body")[0].appendChild(overlay);
 var loader = document.createElement("img");
 loader.setAttribute("id", "slLoader");
 loader.setAttribute("src", "../loaders/gears.svg");
+loader.classList.add("animated jackInTheBox");
 overlay.appendChild(loader);
 
 
