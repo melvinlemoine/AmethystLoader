@@ -37,11 +37,15 @@ loader.style.transition = "opacity 1s ease-in-out 0s";
 
 
 $('*').waitForImages().done(function () {
-    overlay.style.opacity = 0;
-    loader.style.opacity = 0;
 
     setTimeout(function () {
-        overlay.style.display = "none";
-        loader.style.display = "none";
-    }, 2000);
+        overlay.style.opacity = 0;
+        loader.style.opacity = 0;
+
+        setTimeout(function () {
+            overlay.style.display = "none";
+            loader.style.display = "none";
+        }, 2000)
+
+    }, 500);
 });
