@@ -34,7 +34,7 @@ $("body")[0].appendChild(loader);
 overlay.style.transition = "opacity " + loader_duration + "s" + " ease-in-out 0s";
 loader.style.transition = "opacity " + loader_duration / 2 + "s" + " ease-in-out 0s";
 
-$('*').waitForImages(function() {
+$('*').waitForImages(true).done(function() {
     
     alert("IMAGE LOADED");
 
