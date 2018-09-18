@@ -27,33 +27,19 @@ $("body")[0].appendChild(overlay);
 var loader = document.createElement("img");
 loader.setAttribute("id", "slLoader");
 loader.setAttribute("src", "../loaders/gears.svg");
-loader.classList.add("animated jackInTheBox");
+loader.setAttribute("class", "animated jackInTheBox");
 overlay.appendChild(loader);
 
-
-overlay.style.display = "flex";
-overlay.style.position = "absolute";
-overlay.style.width = "100vw";
-overlay.style.height = "100vh";
-overlay.style.justifyContent = "center";
-overlay.style.alignItems = "center";
-
-overlay.style.backgroundColor = "white";
-overlay.style.transition = "opacity " + loader_duration + "s" + " ease-in-out 0s";
-loader.style.transition = "opacity " + loader_duration / 2 + "s" + " ease-in-out 0s";
-
-
+overlay.style.transition = "opacity " + loader_duration + "s" + " ease-in-out 2s";
+loader.style.transition = "opacity " + loader_duration / 2 + "s" + " ease-in-out 1s";
 
 $('*').waitForImages().done(function () {
-
-    setTimeout(function () {
         overlay.style.opacity = 0;
         loader.style.opacity = 0;
 
         setTimeout(function () {
             overlay.style.display = "none";
             loader.style.display = "none";
-        }, loader_duration);
+        }, loader_duration * 2000);
 
-    }, 2000);
 });
