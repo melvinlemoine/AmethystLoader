@@ -1,3 +1,6 @@
 [submodule "waitForImages"]
 	path = waitForImages
 	url = https://github.com/alexanderdickson/waitForImages.git
+[submodule "animate.css"]
+	path = animate.css
+	url = https://github.com/daneden/animate.css.git
