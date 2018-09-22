@@ -13,12 +13,12 @@ Link the css sheet
 
 Link waitForImages
 ```html
-<script src="AmethystLoader/waitForImages/dist/jquery.waitforimages.min.js" type="text/javascript" />
+<script src="AmethystLoader/waitForImages/dist/jquery.waitforimages.min.js">
 ```
 
 Link AmethystLoader
 ```html
-<script src="AmethystLoader.js" type="text/javascript" />
+<script src="AmethystLoader.js">
 ```
 
 And.... It's done !
