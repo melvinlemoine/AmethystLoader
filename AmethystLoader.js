@@ -5,8 +5,8 @@
 */
 
 // Loader path
-var loaders_path = "../loaders/";
-var loader_image = "energy";
+var loaders_path = "AmethystLoader/loaders/";
+var loader_image = "gears";
 
 // Message to display after the content loader
 var loader_text = false;
@@ -36,11 +36,11 @@ loader.style.transition = "opacity " + loader_duration / 2 + "s" + " ease-in-out
 
 $('*').waitForImages(true).done(function() {
 
-    overlay.style.opacity = 0;
-    loader.style.opacity = 0;
+  overlay.style.opacity = 0;
+  loader.style.opacity = 0;
 
-    setTimeout(function () {
-        overlay.style.display = "none";
-        loader.style.display = "none";
-    }, loader_duration * 1000);
+  setTimeout(function() {
+    overlay.style.display = "none";
+    loader.style.display = "none";
+  }, loader_duration * 1000);
 });
