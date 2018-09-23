@@ -5,7 +5,7 @@
 */
 
 // Loader path
-var loaders_path = "AmethystLoader/loaders/";
+var loaders_path = "resources/AmethystLoader/loaders/";
 var loader_image = "gears";
 
 // Message to display after the content loader
