@@ -4,7 +4,7 @@ A simple JS resource to add a loader on your website.
 ## Preview
 *coming soon*
 
-## Install
+## Installation
 
 Link the css sheet
 ```html
@@ -16,7 +16,7 @@ Link waitForImages
 <script src="AmethystLoader/waitForImages/dist/jquery.waitforimages.min.js">
 ```
 
-Link AmethystLoader
+Link AmethystLoader script
 ```html
 <script src="AmethystLoader.js">
 ```
@@ -24,4 +24,20 @@ Link AmethystLoader
 And.... It's done !
 
 ## Configuration
-*coming soon*
+
+Fill the loaders folder path
+```JS
+var loaders_path = "AmethystLoader/loaders/";
+```
+Select the loading icon (with extensions)
+```JS
+var loader_image = "gears.svg";
+```
+if you want a message to appear after loading the loader, set to true.
+```JS
+var loader_text = false;
+```
+Fill the message
+```JS
+var loader_text_content = "This is the message !";
+```
