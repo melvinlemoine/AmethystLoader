@@ -1,8 +1,8 @@
 # simpleLoader
-A simple JS resource to add a loader on your website.
+A simple JS library to add a loader on your website.
 
-## Preview
-*coming soon*
+[demo](http://projets.melvin-lemoine.me/AmethystLoader/demo/)
+
 
 ## Installation
 
