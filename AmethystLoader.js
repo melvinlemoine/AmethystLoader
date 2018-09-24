@@ -5,15 +5,12 @@
 */
 
 // Loader path
-var loaders_path = "resources/AmethystLoader/loaders/";
-var loader_image = "gears";
+var loaders_path = "AmethystLoader/loaders/";
+var loader_image = "gears.svg";
 
 // Message to display after the content loader
 var loader_text = false;
 var loader_text_content = "";
-
-// Loader hide animation duration after all content loaded (default 2s)
-var loader_duration = 1;
 
 /*
 ##################################################
@@ -27,7 +24,7 @@ $("body")[0].appendChild(overlay);
 
 var loader = document.createElement("img");
 loader.setAttribute("id", "slLoader");
-loader.setAttribute("src", loaders_path + loader_image + ".svg");
+loader.setAttribute("src", loaders_path + loader_image);
 //loader.setAttribute("class", "animated jackInTheBox");
 $("body")[0].appendChild(loader);
 
@@ -42,5 +39,5 @@ $('*').waitForImages(true).done(function() {
   setTimeout(function() {
     overlay.style.display = "none";
     loader.style.display = "none";
-  }, loader_duration * 1000);
+  }, 1000);
 });
