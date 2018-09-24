@@ -29,7 +29,7 @@ Fill the loaders folder path
 ```JS
 var loaders_path = "AmethystLoader/loaders/";
 ```
-Select the loading icon (with extensions)
+Select the loading icon (with extension)
 ```JS
 var loader_image = "gears.svg";
 ```
@@ -41,3 +41,6 @@ Fill the message
 ```JS
 var loader_text_content = "This is the message !";
 ```
+
+## Resources
+Visit [loading.io](https://loading.io) to get some loaders !
