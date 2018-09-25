@@ -29,7 +29,7 @@ loader.setAttribute("src", loaders_path + loader_image);
 $("body")[0].appendChild(loader);
 
 overlay.style.transition = "opacity " + 1 + "s" + " ease-in-out 0s";
-// loader.style.transition = "opacity " + 1 / 2 + "s" + " ease-in-out 0s";
+loader.style.transition = "opacity " + 1 / 2 + "s" + " ease-in-out 0s";
 
 $('*').waitForImages(true).done(function() {
 
