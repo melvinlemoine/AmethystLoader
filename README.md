@@ -14,9 +14,7 @@ aren't loaded, the screen is white with an animated icon :
 ![preview](https://i.imgur.com/Q5GzByU.png)
 
 ## Installation
-
 ```HTML
-
 <!-- Link the css sheet -->
 <link rel="stylesheet" type="text/css" href="AmethystLoader/AmethystLoader.css" />
 
@@ -29,16 +27,17 @@ aren't loaded, the screen is white with an animated icon :
 
 <!-- Link AmethystLoader script -->
 <script src="AmethystLoader.js"></script>
+```
 
+
+### Initialization
+```HTML
 <!-- Initialize the Loader -->
 <script type="text/javascript">
 AmethystLoader(icon_folder, icon);
 </script>
 
-```
-
-Initialization example
-```HTML
+<!-- Example -->
 <script>
 AmethystLoader("AmethystLoader/loaders/", "gears.svg");
 </script>
