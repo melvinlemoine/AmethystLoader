@@ -50,7 +50,8 @@ Visit [loading.io](https://loading.io) to get some loaders !
 ## Loaders in this repository
 `Add your loaders by make pull requests !`
 
-| Loaders                                                             | File name     |
-| :-----------------------------------------------------------------: |:-------------:|
-| ![orbs](http://documents.melvin-lemoine.me/loaders/orbs.svg)        | orbs.svg      |
-| ![gears](http://documents.melvin-lemoine.me/loaders/gears.svg)      | gears.svg     |
+| Loaders                                                                 | File name     |
+| :---------------------------------------------------------------------: |:-------------:|
+| ![orbs](http://documents.melvin-lemoine.me/loaders/orbs.svg)            | orbs.svg      |
+| ![gears](http://documents.melvin-lemoine.me/loaders/gears.svg)          | gears.svg     |
+| ![amethyst](http://documents.melvin-lemoine.me/loaders/amethyst.svg)    | amethyst.svg  |
