@@ -40,7 +40,7 @@ Visit [loading.io](https://loading.io) to get some loaders !
 
 ## Loaders in this repository
 `All the loaders are animated`
-| Loader                                                        | File name     |
-| :-------------:                                               |:-------------:|
+| Loader                                                       | File name     |
+| :----------------------------------------------------------: |:-------------:|
 | ![orbs](documents.melvin-lemoine.me/loaders/orbs.svg)        | orbs.svg      |
-| ![orbs](documents.melvin-lemoine.me/loaders/gears.svg)        | gears.svg     |
+| ![orbs](documents.melvin-lemoine.me/loaders/gears.svg)       | gears.svg     |
