@@ -28,33 +28,19 @@ AmethystLoader(icon_folder, icon);
 
 ```
 
-Exemple
+Initialization example
 ```HTML
 <script>
 AmethystLoader("AmethystLoader/loaders/", "gears.svg");
 </script>
 ```
 
-And.... It's done !
-
-## Configuration
-
-Fill the loaders folder path
-```JS
-var loaders_path = "AmethystLoader/loaders/";
-```
-Select the loading icon (with extension)
-```JS
-var loader_image = "gears.svg";
-```
-if you want a message to appear after loading the loader, set to true.
-```JS
-var loader_text = false;
-```
-Fill the message
-```JS
-var loader_text_content = "This is the message !";
-```
-
-## Resources
+## Loaders bank
 Visit [loading.io](https://loading.io) to get some loaders !
+
+## Loaders in this repository
+`All the loaders are animated`
+| Loader                                                        | File name     |
+| :-------------:                                               |:-------------:|
+| ![orbs](documents.melvin-lemoine.me/loaders/orbs.svg)        | orbs.svg      |
+| ![orbs](documents.melvin-lemoine.me/loaders/gears.svg)        | gears.svg     |
