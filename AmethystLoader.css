@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   background-color: white;
-  z-index: 100;
+  z-index: 99;
 }
 
 #slLoader {
@@ -16,7 +16,10 @@
   bottom: 0;
   left: 0;
   right: 0;
+  opacity: 0;
   margin: auto;
   width: 15vw;
+  height: 15vw;
   z-index: 100;
+  transition: opacity .5s ease-in-out 0s;
 }
