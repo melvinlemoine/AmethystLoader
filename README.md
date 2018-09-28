@@ -54,4 +54,4 @@ Visit [loading.io](https://loading.io) to get some loaders !
 | :---------------------------------------------------------------------: |:-------------:|
 | ![orbs](http://documents.melvin-lemoine.me/loaders/orbs.svg)            | orbs.svg      |
 | ![gears](http://documents.melvin-lemoine.me/loaders/gears.svg)          | gears.svg     |
-| ![amethyst](http://documents.melvin-lemoine.me/loaders/amethyst.svg)    | amethyst.svg  |
+| ![amethyst](http://documents.melvin-lemoine.me/loaders/amethyst.png)    | amethyst.svg  |
