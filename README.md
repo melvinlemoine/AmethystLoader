@@ -1,8 +1,17 @@
 # AmethystLoader
-A simple JS library to add a loader on your website.
+A simple JS library to add a loader on your website :
+until :
+
+* Web fonts,
+* Images,
+* Background-images,
+
+aren't loaded, the screen is white with an animated icon :
 
 [demo](http://projets.melvin-lemoine.me/AmethystLoader/demo/)
 
+## Preview
+![preview](https://i.imgur.com/Q5GzByU.png)
 
 ## Installation
 
@@ -39,7 +48,7 @@ AmethystLoader("AmethystLoader/loaders/", "gears.svg");
 Visit [loading.io](https://loading.io) to get some loaders !
 
 ## Loaders in this repository
-`All the loaders are animated`
+`Add your loaders by make pull requests !`
 
 | Loaders                                                             | File name     |
 | :-----------------------------------------------------------------: |:-------------:|
