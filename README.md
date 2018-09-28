@@ -39,7 +39,6 @@ aren't loaded, the screen is white with an animated icon :
 ```
 ### Initialization example
 ```HTML
-<!-- Example -->
 <script>
   AmethystLoader("AmethystLoader/loaders/", "gears.svg");
 </script>
