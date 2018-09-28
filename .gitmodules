@@ -4,3 +4,6 @@
 [submodule "fontfaceobserver"]
 	path = fontfaceobserver
 	url = https://github.com/bramstein/fontfaceobserver.git
+[submodule "fontunstack"]
+	path = fontunstack
+	url = https://github.com/philoye/fontunstack.git
