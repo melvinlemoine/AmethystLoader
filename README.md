@@ -34,12 +34,14 @@ aren't loaded, the screen is white with an animated icon :
 ```HTML
 <!-- Initialize the Loader -->
 <script type="text/javascript">
-AmethystLoader(icon_folder, icon);
+  AmethystLoader(icon_folder, icon);
 </script>
-
+```
+### Initialization example
+```HTML
 <!-- Example -->
 <script>
-AmethystLoader("AmethystLoader/loaders/", "gears.svg");
+  AmethystLoader("AmethystLoader/loaders/", "gears.svg");
 </script>
 ```
 
