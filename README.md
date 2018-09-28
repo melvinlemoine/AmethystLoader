@@ -16,6 +16,11 @@ Link waitForImages
 <script src="AmethystLoader/waitForImages/dist/jquery.waitforimages.min.js">
 ```
 
+Link fontFaceObserver
+```html
+<script src="AmethystLoader/fontfaceobserver/fontfaceobserver.js">
+```
+
 Link AmethystLoader script
 ```html
 <script src="AmethystLoader.js">
