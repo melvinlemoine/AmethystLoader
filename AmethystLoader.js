@@ -7,10 +7,11 @@ function AmethystLoader(loaders_folder, loader_image) {
   overlay.setAttribute("id", "slOverlay");
   $("body")[0].appendChild(overlay);
 
-  var loader = document.createElement("img");
+  var loader = document.createElement("embed");
   loader.setAttribute("id", "slLoader");
   loader.setAttribute("src", loaders_folder + loader_image);
   $("body")[0].appendChild(loader);
+  loader.style.opacity = 1;
 
   overlay.style.transition = "opacity " + 1 + "s" + " ease-in-out 0s";
   loader.style.transition = "opacity " + 1 / 2 + "s" + " ease-in-out 0s";
