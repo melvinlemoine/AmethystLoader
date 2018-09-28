@@ -6,24 +6,33 @@ A simple JS library to add a loader on your website.
 
 ## Installation
 
-Link the css sheet
-```html
+```HTML
+
+<!--Link the css sheet -->
 <link rel="stylesheet" type="text/css" href="AmethystLoader/AmethystLoader.css" />
-```
 
-Link waitForImages
-```html
+
+<!- -Link waitForImages -->
 <script src="AmethystLoader/waitForImages/dist/jquery.waitforimages.min.js">
-```
 
-Link fontFaceObserver
-```html
+<!-- Link fontFaceObserver -->
 <script src="AmethystLoader/fontfaceobserver/fontfaceobserver.js">
+
+<!-- Link AmethystLoader script -->
+<script src="AmethystLoader.js">
+
+<!-- Initialize the Loader -->
+<script>
+AmethystLoader(icon_folder, icon);
+</script>
+
 ```
 
-Link AmethystLoader script
-```html
-<script src="AmethystLoader.js">
+Exemple
+```HTML
+<script>
+AmethystLoader("AmethystLoader/loaders/", "gears.svg");
+</script>
 ```
 
 And.... It's done !
